@@ -1,5 +1,5 @@
 {
-    "name": ":freddiedfre/africastalkinglaravel5",
+    "name": "freddiedfre/africas-talking-laravel-5",
     "type": "library",
     "description": "A package for integrating Afric's Talking SMS gateway into a Laravel 5 App.",
     "keywords": ["africastalking","sms gateway"],
