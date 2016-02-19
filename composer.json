@@ -1,0 +1,45 @@
+{
+    "name": ":freddiedfre/africastalkinglaravel5",
+    "type": "library",
+    "description": "A package for integrating Afric's Talking SMS gateway into a Laravel 5 App.",
+    "keywords": ["africastalking","sms gateway"],
+    "homepage": "https://github.com/freddiedfre/AfricasTalkingLaravel5",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fredrick A",
+            "email": "fredrickanyera@gmail.com",
+            "homepage": "https://github.com/freddiedfre",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.1",
+        "php" : "~5.5|~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+             "Freddiedfre\\AfricasTalkingLaravel5\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            ":vendor\\:package_name\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+}
+    
