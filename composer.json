@@ -1,7 +1,7 @@
 {
-    "name": "freddiedfre/africas-talking-laravel-5",
+    "name": "freddiedfre/africas_talking_laravel_5",
     "type": "library",
-    "description": "A package for integrating Afric's Talking SMS gateway into a Laravel 5 App.",
+    "description": "A package for integrating Africa's Talking SMS gateway into a Laravel 5 App.",
     "keywords": ["africastalking","sms gateway"],
     "homepage": "https://github.com/freddiedfre/AfricasTalkingLaravel5",
     "license": "MIT",
