@@ -44,8 +44,8 @@ The AfricasTalkingGateway.php methods will now be available via a Facade.
 
 Add the following route to your routes.php and navigate to it on your browser.
 
-Route::get('test', function () {
-    SMSProvider::sendMessage('ReplaceWithYouPhoneNumber', 'ReplaceWithYourSampleMessage');
-});
+    Route::get('test', function () {
+        SMSProvider::sendMessage('ReplaceWithYouPhoneNumber', 'ReplaceWithYourSampleMessage');
+    });
 
 
