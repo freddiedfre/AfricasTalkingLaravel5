@@ -1,7 +1,7 @@
 #INSTALLATION AND USAGE GUIDE
 
 NB. 
--The Package was put together to work on laravel 5.2.
+- The Package was put together to work on laravel 5.2.
 - You will need a username and API key from https://www.africastalking.com/
 
 
@@ -20,25 +20,25 @@ NB.
 
 The AfricasTalkingGateway.php methods will now be available via a Facade. 
 - Text Message Methods
-    *SMSProvider::sendMessage($to_, $message_, $from_ = null, $bulkSMSMode_ = 1, Array $options_ = array());
+    * SMSProvider::sendMessage($to_, $message_, $from_ = null, $bulkSMSMode_ = 1, Array $options_ = array());
     * SMSProvider::fetchMessages($lastReceivedId_);
 
 - Subscription Services Methods
-    *SMSProvider::createSubscription($phoneNumber_, $shortCode_, $keyword_);
-    *SMSProvider::deleteSubscription($phoneNumber_, $shortCode_, $keyword_);
-    *SMSProvider::fetchPremiumSubscriptions($shortCode_, $keyword_, $lastReceivedId_ = 0);
-    *SMSProvider::getNumQueuedCalls($phoneNumber_, $queueName = null); 
+    * SMSProvider::createSubscription($phoneNumber_, $shortCode_, $keyword_);
+    * SMSProvider::deleteSubscription($phoneNumber_, $shortCode_, $keyword_);
+    * SMSProvider::fetchPremiumSubscriptions($shortCode_, $keyword_, $lastReceivedId_ = 0);
+    * SMSProvider::getNumQueuedCalls($phoneNumber_, $queueName = null); 
 
 - Call methods
-    *SMSProvider::call($from_, $to_);
-    *SMSProvider::getNumQueuedCalls($phoneNumber_, $queueName = null);		
-    *SMSProvider::uploadMediaFile($url_);
+    * SMSProvider::call($from_, $to_);
+    * SMSProvider::getNumQueuedCalls($phoneNumber_, $queueName = null);		
+    * SMSProvider::uploadMediaFile($url_);
    
 - Airtime method
-    *SMSProvider::sendAirtime($recipients);
+    * SMSProvider::sendAirtime($recipients);
 
 - User info method
-    *SMSProvider::getUserData();
+    * SMSProvider::getUserData();
 
 ##Test Example
 
