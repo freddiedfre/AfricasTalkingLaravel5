@@ -1,14 +1,11 @@
-INSTALLATION AND USAGE GUIDE
+#INSTALLATION AND USAGE GUIDE
 
-
-####################################################################################################################
 NB. 
 1. The Package was put together to work on laravel 5.2.
 2. You will need a username and API key from https://www.africastalking.com/
-3. 
-####################################################################################################################
 
-Installation Steps
+
+##Installation Steps
 
 1. run composer require freddiedfre/africas_talking_laravel_5=dev-master  from your projects root.
 2. In aconfig/app.php add 
@@ -19,9 +16,7 @@ Installation Steps
 5. run php artisan config:clear
 5. run composer dump-autoload
 
-####################################################################################################################
-
-Usage Instructions
+##Usage Instructions
 
 The AfricasTalkingGateway.php methods will now be available via a Facade. 
 1. Text Message Methods
@@ -45,16 +40,12 @@ The AfricasTalkingGateway.php methods will now be available via a Facade.
 5. User info method
       SMSProvider::getUserData();
 
-####################################################################################################################
-Test Example
+##Test Example
 
 Add the following route to your routes.php and navigate to it on your browser.
 
 Route::get('test', function () {
     SMSProvider::sendMessage('ReplaceWithYouPhoneNumber', 'ReplaceWithYourSampleMessage');
 });
-
-####################################################################################################################
- 
 
 
