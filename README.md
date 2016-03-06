@@ -1,7 +1,7 @@
 #INSTALLATION AND USAGE GUIDE
 
 NB. 
-- The Package was put together to work on laravel 5.2.
+- This package is a ServiceProvider for aricastalking SMS gateway laravel 5.2.
 - You will need a username and API key from https://www.africastalking.com/
 
 
