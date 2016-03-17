@@ -7,10 +7,11 @@ NB.
 
 ##Installation Steps
 
-- run composer require freddiedfre/africas_talking_laravel_5=dev-master  from your projects root.
+- run     composer require freddiedfre/africas_talking_laravel_5=dev-master  from your projects root.
 - In aconfig/app.php add 
-    *  FreddieDfre\AfricasTalkingLaravel5\AfricasTalkingLaravel5ServiceProvider::class, to 'providers' => []
-    * 'SMSProvider' =>FreddieDfre\AfricasTalkingLaravel5\AfricasTalkingLaravel5Facade::class, to 'aliases' => []
+        FreddieDfre\AfricasTalkingLaravel5\AfricasTalkingLaravel5ServiceProvider::class, to 'providers' => []
+
+        'SMSProvider' =>FreddieDfre\AfricasTalkingLaravel5\AfricasTalkingLaravel5Facade::class, to 'aliases' => []
 - run php artisan vendor:publish
 - Navigate to YourApp/config/AfricastalkingGateway.php and fill in your username and api_key
 - run php artisan config:clear
