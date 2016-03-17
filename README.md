@@ -7,9 +7,11 @@ NB.
 
 ##Installation Steps
 
-- run     composer require freddiedfre/africas_talking_laravel_5=dev-master  from your projects root.
-- In aconfig/app.php add 
-        FreddieDfre\AfricasTalkingLaravel5\AfricasTalkingLaravel5ServiceProvider::class, to 'providers' => []
+- run the following composer command at the root of your projects.
+        composer require freddiedfre/africas_talking_laravel_5=dev-master
+
+- In your 'providers' => [] in config/app.php add 
+        FreddieDfre\AfricasTalkingLaravel5\AfricasTalkingLaravel5ServiceProvider::class,
 
         'SMSProvider' =>FreddieDfre\AfricasTalkingLaravel5\AfricasTalkingLaravel5Facade::class, to 'aliases' => []
 - run php artisan vendor:publish
