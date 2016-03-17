@@ -28,7 +28,14 @@ NB.
 
 - run `php artisan vendor:publish`
 
-- Navigate to YourApp/config/AfricastalkingGateway.php and fill in your username and api_key
+- Navigate to config/AfricastalkingGateway.php and fill in your username and api_key
+
+
+        <?php 
+        return [
+            'username' => 'freddiedfre',
+            'api_key' => 'faa61d35690193cb3f11f6f9ef5cd9ff6ad74d7d3f561c10c2236ef9d00fe917',
+            ];
 
 - run `php artisan config:clear`
 
