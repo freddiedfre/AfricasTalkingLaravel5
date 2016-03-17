@@ -12,15 +12,17 @@ NB.
         `composer require freddiedfre/africas_talking_laravel_5=dev-master`
 
 - In config/app/php add the following lines of code.
-        ```
+
+```
         'providers' => [
         FreddieDfre\AfricasTalkingLaravel5\AfricasTalkingLaravel5ServiceProvider::class,
         ]
         
+        
         'aliases' => [
         'SMSProvider' =>FreddieDfre\AfricasTalkingLaravel5\AfricasTalkingLaravel5Facade::class,
         ]
-        ```
+```
 - run `php artisan vendor:publish`
 
 - Navigate to YourApp/config/AfricastalkingGateway.php and fill in your username and api_key
