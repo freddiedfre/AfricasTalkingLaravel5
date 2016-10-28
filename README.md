@@ -8,7 +8,7 @@ This package allows you to use:
 * User info methods
 
 ## Official Documentation
-This Africa's Talking Laravel 5 API package Documentation can be found [here](https://valentinemwangi.github.io/AfricasTalkingLaravel5).
+This Africa's Talking Laravel 5 API package Documentation can be found [here](https://cimplival.github.io/AfricasTalkingLaravel5).
 
 ## Requirements
 1. **PHP 5.6+**
