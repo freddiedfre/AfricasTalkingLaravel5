@@ -1,11 +1,11 @@
-#INSTALLATION AND USAGE GUIDE
+# INSTALLATION AND USAGE GUIDE
 
 NB. 
 - This package is a ServiceProvider for aricastalking SMS gateway laravel 5.2.
 - You will need a username and API key from https://www.africastalking.com/
 
 
-##Installation Steps
+## Installation Steps
 
 - run the following composer command at the root of your projects.
 
@@ -41,7 +41,7 @@ NB.
 
 - run `composer dump-autoload`
 
-##Usage Instructions
+## Usage Instructions
 
 The AfricasTalkingGateway.php methods will now be available via a Facade. 
 - Text Message Methods
@@ -65,7 +65,7 @@ The AfricasTalkingGateway.php methods will now be available via a Facade.
 - User info method
     * `SMSProvider::getUserData();`
 
-##Test Example
+## Test Example
 
 Add the following route to your routes.php and navigate to it on your browser.
 
